@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.j-button{
+    width: 175px;
+    height: 65px;
+    border: none;
+    background: bisque;
+    font-size: 16px;
+    color: #141111;
+    
+}
+
+.j-button:hover{
+    background: #d6a6a6;
+    color: antiquewhite;
+    cursor: pointer;
+}

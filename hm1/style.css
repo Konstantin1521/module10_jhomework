@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.j-btn{
+    width: 144px;
+    height: 45px;
+    border: none;
+    background: bisque;
+    font-size: 16px;
+    color: #141111;
+    
+}
+
+.j-btn:hover{
+    background: #d6a6a6;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+
+
+.icon1 {
+    display: block;
+}
+
+.icon2{
+    display: none;
+}
